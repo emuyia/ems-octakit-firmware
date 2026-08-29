@@ -1,8 +1,8 @@
-labels: ["enhancement"]
+labels: ["suggestion"]
 
 body:
   - type: textarea
     id: description
     attributes:
       label: "Description"
-      description: "Describe the feature or enhancement. What is it? How would it work?"
+      description: "Describe the suggestion.
