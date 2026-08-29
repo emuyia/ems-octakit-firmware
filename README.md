@@ -1,13 +1,37 @@
 # MANDATORY READING
 
-1. ****Please backup your projects before updating.**** This custom firmware is a work in progress, so there will be bugs, regressions, etc. and your project data could be put at risk.
+- Please backup your projects before updating. Avoid working on anything critical.
+- Development builds are available on my website, [here](https://www.junes.website/goodies/octakit).
 
-2. ****Beta & dev/alpha builds may contain destructive changes from build to build.**** Therefore I strongly recommend against working on anything critical on these builds right now. Beta builds aren't available yet, and more detail will be added for those soon. For now, development ('alpha') builds are available on my website, [here](https://www.junes.website/goodies/octakit). I hope keep improving stability and receive crash and bug reports to that end.
+No Octatrack firmware is hosted or distributed here or on my website. The patcher on my website has been designed not to contain any official code or assets. You provide your own official OS 1.40C, and the modified firmware is built entirely in the browser.
 
-3. ****Parts have been replaced with Kits.**** This means 64 Parts (4 per Bank) have been replaced with 256 Kits per Project (untethered from Banks). Old Projects that contain Parts should be automatically migrated to the first 64 Kit slots, with patterns assigned accordingly. Downgrading and then trying to load a Project that used Kits may result in losing Kit data. Therefore it's best to treat the migration process as irreversible for any Project you save while using the octakit firmware.
+Current changes:
+
+- 64 Parts (4 per Bank) have been replaced with 256 Kits per Project (untethered from Banks).
+- Old Projects that contain Parts should be automatically migrated to the first 64 Kit slots, with patterns assigned accordingly. (Downgrading firmware back to stock may result in losing Kit data).
+- OS version number changed to date based versioning (e.g. 26512), and splash animation removed.
+
+UX changes:
+
+- On MKII, PART opens LOAD KIT, FUNC+PART opens SAVE KIT
+- On MKI, FUNC+MIDI opens LOAD KIT, then FUNC+BANK opens SAVE KIT
+- FUNC+CUE reloads the assigned Kit
+- Saving a Kit prompts a name (max 7 chars)
+- In the LOAD/SAVE KIT menus, you can copy/paste/clear/undo Kit slots
+- Unassigned Kits are marked with an asterisk
 
 # BUG REPORTS
 
 If you find a bug or a crash, please [open an issue](../../issues/new?template=bug_report.md) for it. Make sure to mention which firmware version you are using, and what the crash message says, if there is one. It would also be great to provide steps to reproduce the issue, if known.
 
 If you'd like to make a suggestion, feel free to [open a discussion](../../discussions/new?category=suggestions).
+
+# FUTURE OF OCTAKIT
+
+Currently this Octakit firmware mod exists because I prefer the silver boxes' (MnM & MD's) Kit approach over Parts - it better fits my way of working.
+
+I don't have specific plans beyond that currently, however there is a decent chance this will change as I continue to use the OT, and Kits become more stable.
+
+There is also a lot of other Octatrack firmware modification being done in the community. So at some point it would be great to package my modifications as part of a modular approach, where you pick and choose features among other modifications.
+
+Regardless, any bug or crash reports made here will go on to help to make this particular effort more stable.
