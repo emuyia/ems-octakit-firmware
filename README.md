@@ -10,4 +10,4 @@
 
 If you find a bug or a crash, please [open an issue](../../issues/new?template=bug_report.md) for it. Make sure to mention which firmware version you are using, and what the crash message says, if there is one. It would also be great to provide steps to reproduce the issue, if known.
 
-If you'd like to make a suggestion, feel free to [open a discussion](../../discussions/categories/features).
+If you'd like to make a suggestion, feel free to [open a discussion](../../discussions/categories/suggestions).
