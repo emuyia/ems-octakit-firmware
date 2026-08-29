@@ -5,4 +5,4 @@ body:
     id: description
     attributes:
       label: "Description"
-      description: "Describe the suggestion.
+      description: "Describe the suggestion."
