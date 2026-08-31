@@ -16,7 +16,7 @@ UX changes:
 - On MKII, PART opens LOAD KIT, FUNC+PART opens SAVE KIT
 - On MKI, FUNC+MIDI opens LOAD KIT, then FUNC+BANK opens SAVE KIT
 - FUNC+CUE reloads the assigned Kit
-- Saving a Kit prompts a name (max 7 chars)
+- Saving a Kit prompts a name (max 7 chars). FUNC+PART+YES (MKI: FUNC+BANK+YES) skips the prompt
 - In the LOAD/SAVE KIT menus, you can copy/paste/clear/undo Kit slots
 - Unassigned Kits are marked with an asterisk
 
