@@ -1,0 +1,28 @@
+[package]
+name = "ot_patcher"
+version = "0.1.0"
+edition = "2021"
+publish = false
+authors = ["June"]
+repository = "https://github.com/emuyia/ems-octakit-firmware"
+homepage = "https://www.junes.website/goodies/octakit"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[features]
+default = []
+embedded-recipe = []
+
+[dependencies]
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.140"
+sha2 = "0.10.8"
+wasm-bindgen = "=0.2.127"
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = "s"
+panic = "abort"
+strip = true

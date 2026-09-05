@@ -1,0 +1,142 @@
+{
+  "schema_version": 2,
+  "minimum_match_length": 16,
+  "target_coordinate_system": "payload-exterior-module-edge-distance-v1",
+  "reviews": [
+    {
+      "sha256": "1ce9aef8f0da2a8fdd1762c78f9d6bbf44b09dd8645c3ef1ab57f3e22ca73ae0",
+      "length": 21,
+      "source_offset": 762847,
+      "count": 1,
+      "target_locations": [{"side": "after-payload", "anchor": "module-end", "distance": 3548}],
+      "classification": "generic-tooling-coincidence",
+      "reason": "Reviewed bytes are one scalar byte followed by zero-filled WebAssembly data, outside the embedded public payload."
+    },
+    {
+      "sha256": "35c050d5cd0da07566b1eea941a901beb4894dbea55d6bb5ebb04f558319dbee",
+      "length": 57,
+      "source_offset": 865772,
+      "count": 1,
+      "target_locations": [{"side": "after-payload", "anchor": "module-end", "distance": 557}],
+      "classification": "generic-tooling-coincidence",
+      "reason": "Reviewed bytes are two one-byte scalar values followed by zero-filled WebAssembly data, outside the embedded public payload."
+    },
+    {
+      "sha256": "3d5b107e39462f8717ef3c7df66134257a0b29a381b57f5a1d7a1a04cda256af",
+      "length": 16,
+      "source_offset": 794938,
+      "count": 1,
+      "target_locations": [{"side": "after-payload", "anchor": "module-end", "distance": 499}],
+      "classification": "generic-tooling-coincidence",
+      "reason": "Reviewed bytes are fifteen repeated 0x03 values followed by one 0x04 compiler-data value, outside the embedded public payload."
+    },
+    {
+      "sha256": "43d9c0ec19cc6c96e8f89fd19cc58d713bcadd5d97c282627b3fba22fae01e0d",
+      "length": 19,
+      "source_offset": 844572,
+      "count": 1,
+      "target_locations": [{"side": "after-payload", "anchor": "module-end", "distance": 2452}],
+      "classification": "generic-tooling-coincidence",
+      "reason": "Reviewed bytes are a low-entropy zero/scalar compiler data-table fragment, outside the embedded public payload."
+    },
+    {
+      "sha256": "4703e93d5df2d4b5bd2dfb901648e7acc08e62cd262b2a6f7b6271a5aa64a8b1",
+      "length": 67,
+      "source_offset": 866275,
+      "count": 1,
+      "target_locations": [{"side": "after-payload", "anchor": "module-end", "distance": 546}],
+      "classification": "generic-tooling-coincidence",
+      "reason": "Reviewed bytes are one scalar byte followed by a maximal zero-filled WebAssembly data run, outside the embedded public payload."
+    },
+    {
+      "sha256": "474c0bb7fd2a0d98542270e82a4d383f9991370f0e6cfaba02624db80ef60fe4",
+      "length": 17,
+      "source_offset": 792799,
+      "count": 1,
+      "target_locations": [{"side": "after-payload", "anchor": "module-end", "distance": 484}],
+      "classification": "generic-tooling-coincidence",
+      "reason": "Reviewed bytes are a short repeated-scalar and zero-fill compiler data fragment, outside the embedded public payload."
+    },
+    {
+      "sha256": "6399f6d863b08f4652b342c2e1350b4c01e291332d9d84d84b575bf7272897d2",
+      "length": 16,
+      "source_offset": 794795,
+      "count": 1,
+      "target_locations": [{"side": "after-payload", "anchor": "module-end", "distance": 500}],
+      "classification": "generic-tooling-coincidence",
+      "reason": "Reviewed bytes are a maximal uniform 0x03 compiler-data run, outside the embedded public payload."
+    },
+    {
+      "sha256": "65a16cb7861335d5ace3c60718b5052e44660726da4cd13bb745381b235a1785",
+      "length": 57,
+      "source_offset": 1082340,
+      "count": 1,
+      "target_locations": [{"side": "after-payload", "anchor": "module-end", "distance": 3569}],
+      "classification": "generic-tooling-coincidence",
+      "reason": "Reviewed bytes are a maximal uniform zero-fill run in WebAssembly data, outside the embedded public payload."
+    },
+    {
+      "sha256": "692865c9a376a1a82d161b0f9578595554873797fa9ebbb068b797828122e61d",
+      "length": 16,
+      "source_offset": 764065,
+      "count": 1,
+      "target_locations": [{"side": "after-payload", "anchor": "module-end", "distance": 545}],
+      "classification": "generic-tooling-coincidence",
+      "reason": "Reviewed bytes are zero-filled WebAssembly data followed by one small scalar, outside the embedded public payload."
+    },
+    {
+      "sha256": "7d65bebdbd4d8bf0094623d9b5b20a3ff4c92218e88f831e70e24b326eba2f4d",
+      "length": 16,
+      "source_offset": 782379,
+      "count": 1,
+      "target_locations": [{"side": "after-payload", "anchor": "module-end", "distance": 3404}],
+      "classification": "generic-tooling-coincidence",
+      "reason": "Reviewed bytes are zero-filled WebAssembly data followed by one small scalar, outside the embedded public payload."
+    },
+    {
+      "sha256": "7e0dc3a13324b0670287ae76d49b3d6a86bf2066f88e0fed0f05f28b07270bf1",
+      "length": 163,
+      "source_offset": 1082340,
+      "count": 1,
+      "target_locations": [{"side": "after-payload", "anchor": "module-end", "distance": 3405}],
+      "classification": "generic-tooling-coincidence",
+      "reason": "Reviewed bytes are a maximal uniform zero-fill run in WebAssembly data, outside the embedded public payload."
+    },
+    {
+      "sha256": "885380fb04abcb08b0c7140ead071d633c20e1dd5c179b749fec6548a387891e",
+      "length": 28,
+      "source_offset": 837020,
+      "count": 1,
+      "target_locations": [{"side": "after-payload", "anchor": "module-end", "distance": 3601}],
+      "classification": "generic-tooling-coincidence",
+      "reason": "Reviewed bytes are a zero/scalar WebAssembly initializer fragment, outside the embedded public payload."
+    },
+    {
+      "sha256": "a9c5ef4dea968536199fa249c1a6cea8cb958c22a1e0858abeeaa0db5661f5f8",
+      "length": 19,
+      "source_offset": 692786,
+      "count": 1,
+      "target_locations": [{"side": "after-payload", "anchor": "module-end", "distance": 2236}],
+      "classification": "generic-tooling-coincidence",
+      "reason": "Reviewed bytes are big-endian small sequential integers 24 through 27 in a compiler data table, outside the embedded public payload."
+    },
+    {
+      "sha256": "afa92a502e8bea3870af939df1f8d7a8969c984872d4fbf282b658b3ad73bebd",
+      "length": 27,
+      "source_offset": 832649,
+      "count": 1,
+      "target_locations": [{"side": "after-payload", "anchor": "module-end", "distance": 0}],
+      "classification": "generic-tooling-coincidence",
+      "reason": "Reviewed bytes are zero-filled WebAssembly data containing one small scalar, outside the embedded public payload."
+    },
+    {
+      "sha256": "f9e9bbaf6d54bf2fc84459ea0afbb23e4257189a09461f5c13713778b7df7610",
+      "length": 23,
+      "source_offset": 692766,
+      "count": 1,
+      "target_locations": [{"side": "after-payload", "anchor": "module-end", "distance": 2260}],
+      "classification": "generic-tooling-coincidence",
+      "reason": "Reviewed bytes are big-endian small sequential integers 19 through 23 in a compiler data table, outside the embedded public payload."
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 # MANDATORY READING
 
 - Please backup your projects before updating. Avoid working on anything critical.
-- Development builds are available on my website, [here](https://www.junes.website/goodies/octakit).
+- Development builds are available on my website, [here](https://www.junes.website/goodies/octakit). Alternatively this repo can be downloaded and used to patch firmware locally.
 
-No Octatrack firmware is hosted or distributed here or on my website. The patcher on my website has been designed not to contain any official code or assets. You provide your own official OS 1.40C, and the modified firmware is built entirely in the browser.
+No Octatrack firmware is hosted or distributed here or on my website. This repo has been designed not to contain any official code or assets. You provide your own official OS 1.40C.
 
 Current changes:
 
@@ -32,6 +32,4 @@ Currently this Octakit firmware mod exists because I prefer the silver boxes' (M
 
 I don't have specific plans beyond that currently, however there is a decent chance this will change as I continue to use the OT, and Kits become more stable.
 
-There is also a lot of other Octatrack firmware modification being done in the community. So at some point it would be great to package my modifications as part of a modular approach, where you pick and choose features among other modifications.
-
-Regardless, any bug or crash reports made here will go on to help to make this particular effort more stable.
+There is also a lot of other Octatrack firmware modification being done in the community. You're free to use this repo as a submodule to combine with other efforts.

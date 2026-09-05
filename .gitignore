@@ -1,0 +1,15 @@
+/build/
+**/target/
+__pycache__/
+*.pyc
+*.syx
+*.bin
+*.elf
+*.o
+*.map
+*.wasm
+*.otrecipe
+*.otpayload
+*.pem
+*.key
+.DS_Store
